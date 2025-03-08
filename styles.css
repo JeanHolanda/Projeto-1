@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+header{
+    margin: 44px 0 0 76px;
+    word-spacing: 23px;
+}
+
+a{
+    color: #989D9C; 
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    cursor: pointer;
+}
+
+a:hover{
+    opacity: 0.8;
+}
+
+a:active{
+    opacity: 0.5;
+}
+
+.button-header{
+    width: 130px;
+    height: 41px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #665AE1;
+    border: none;
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.button-header:hover{
+    opacity: 0.8;
+}
+
+.button-header:active{
+    opacity: 0.5;
+}
+
+img{
+    margin: 55px 86px 0 125px;
+}
+
+section{
+    display: inline-block;
+    margin-top: 7%;
+    position: absolute;
+}
+
+h1{
+    color: #515151;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+h2{
+    color: #515151;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+p{
+    color: #848484;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 515px;
+    margin: 32px 0 65px 0;
+}
+
+.button-section{
+    width: 239px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #ADFF00;
+    border: none;
+    color: #000;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.button-section:hover{
+    opacity: 0.5;
+}
+
+.button-section:active{
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 900px){
+    header{
+        display: none;
+    }
+
+    img{
+        width: 354px;
+        height: 317px;
+        margin: 28% 0 0 -8px;
+        padding: 25px;
+    }
+
+    section{
+        display: block;
+        margin: 20px 0px 0 -12px;
+    }
+
+    h1{
+        width: 263px;
+        height: 52px;
+        font-size: 45px;
+        margin: -25px 10px 0 68px;
+    }
+
+    h2{
+        font-size: 28px;
+        margin: 2px 0px 15px 75px;
+    }
+
+    p{
+        display: none;
+    }
+
+    .button-section{
+        margin-left: 62px;
+    }
+}
